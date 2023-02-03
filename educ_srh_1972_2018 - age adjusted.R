@@ -295,7 +295,7 @@ p1 <- ggplot(data = F.educ.srh) +
         panel.border = element_blank(),
         axis.text.x = element_text(color = "black", size = 9,
                                    angle = 45, hjust = 1),
-        axis.text.y = element_text(color = "black", size = 9),
+        axis.text.y = element_text(color = "black", size = 10),
         text = element_text(family = "Times New Roman"),
         legend.position = "none") +
   annotate("text", y =  2.1, x = 2014, size = 4, label = "Education", 
@@ -330,7 +330,7 @@ p2 <- ggplot(data = M.educ.srh) +
         panel.border = element_blank(),
         axis.text.x = element_text(color = "black", size = 9,
                                    angle = 45, hjust = 1),
-        axis.text.y = element_text(color = "black", size = 9),
+        axis.text.y = element_text(color = "black", size = 10),
         text = element_text(family = "Times New Roman"),
         legend.position = "none") +
   annotate("text", y =  2, x = 2014, size = 4, label = "Education", 
